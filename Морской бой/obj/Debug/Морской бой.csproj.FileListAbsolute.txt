@@ -1,0 +1,42 @@
+C:\Users\Chaklun\source\repos\Морской бой\bin\Debug\Морской бой.exe.config
+C:\Users\Chaklun\source\repos\Морской бой\bin\Debug\Морской бой.exe
+C:\Users\Chaklun\source\repos\Морской бой\bin\Debug\Морской бой.pdb
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской бой.csproj.AssemblyReference.cache
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской бой.csproj.SuggestedBindingRedirects.cache
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\MainWindow.g.cs
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\App.g.cs
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской бой_MarkupCompile.cache
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской бой_MarkupCompile.lref
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\MainWindow.baml
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской бой.g.resources
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской_бой.Properties.Resources.resources
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской бой.csproj.GenerateResource.cache
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской бой.csproj.CoreCompileInputs.cache
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской бой.exe
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской бой.pdb
+C:\Users\Chaklun\Desktop\Морской бой\bin\Debug\Морской бой.exe.config
+C:\Users\Chaklun\Desktop\Морской бой\bin\Debug\Морской бой.exe
+C:\Users\Chaklun\Desktop\Морской бой\bin\Debug\Морской бой.pdb
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\Морской бой.csproj.AssemblyReference.cache
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\Морской бой.csproj.SuggestedBindingRedirects.cache
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\MainWindow.g.cs
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\App.g.cs
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\Морской бой_MarkupCompile.cache
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\Морской бой_MarkupCompile.lref
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\MainWindow.baml
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\Морской бой.g.resources
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\Морской_бой.Properties.Resources.resources
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\Морской бой.csproj.GenerateResource.cache
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\Морской бой.csproj.CoreCompileInputs.cache
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\Морской бой.exe
+C:\Users\Chaklun\Desktop\Морской бой\obj\Debug\Морской бой.pdb
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской_бой.String.resources
+C:\Users\Chaklun\source\repos\Морской бой\bin\Debug\de\Морской бой.resources.dll
+C:\Users\Chaklun\source\repos\Морской бой\bin\Debug\en\Морской бой.resources.dll
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской_бой.String.de.resources
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской_бой.String.en.resources
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\de\Морской бой.resources.dll
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\en\Морской бой.resources.dll
+C:\Users\Chaklun\source\repos\Морской бой\bin\Debug\uk-UA\Морской бой.resources.dll
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\Морской_бой.String.uk-UA.resources
+C:\Users\Chaklun\source\repos\Морской бой\obj\Debug\uk-UA\Морской бой.resources.dll

@@ -1,0 +1,424 @@
+﻿<Window x:Class="Морской_бой.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Морской_бой"
+        mc:Ignorable="d"
+        Height="600" Width="1200" MinHeight="600" MinWidth="1200" WindowStartupLocation="CenterScreen" FontFamily="Arial Bold" FontSize="14">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Rectangle Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Fill="PeachPuff"/>
+        <Grid x:Name="FirstPlayerFieldGrid" Grid.Row="0" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Image Source="C:\Users\Chaklun\source\repos\Морской бой\1.png"/>
+            <Border Grid.ColumnSpan="11" Grid.RowSpan="11" BorderBrush="Black" BorderThickness="2"/>
+            <Rectangle Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="1" Grid.RowSpan="10" Fill="DodgerBlue"/>
+
+            <Border Grid.Column="1" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="2" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="3" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="4" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="5" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="6" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="7" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="8" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="9" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="10" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="1" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="2" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="3" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="4" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="5" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="6" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="7" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="8" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="9" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="10" BorderBrush="Blue" BorderThickness="1"/>
+
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="0" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="1" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="2" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="3" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="5" Grid.Column="0" Text="4" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="6" Grid.Column="0" Text="5" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="7" Grid.Column="0" Text="6" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="8" Grid.Column="0" Text="7" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="9" Grid.Column="0" Text="8" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="10" Grid.Column="0" Text="9" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="A" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="B" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="3" Text="C" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="4" Text="D" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="5" Text="E" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="6" Text="F" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="7" Text="G" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="8" Text="H" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="9" Text="I" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="10" Text="J" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+
+            <CheckBox x:Name="A0_1" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A0_1_Checked"/>
+            <CheckBox x:Name="A1_1" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked ="A1_1_Checked"/>
+            <CheckBox x:Name="A2_1" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked ="A2_1_Checked"/>
+            <CheckBox x:Name="A3_1" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A3_1_Checked"/>
+            <CheckBox x:Name="A4_1" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A4_1_Checked"/>
+            <CheckBox x:Name="A5_1" Grid.Column="1" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A5_1_Checked"/>
+            <CheckBox x:Name="A6_1" Grid.Column="1" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A6_1_Checked"/>
+            <CheckBox x:Name="A7_1" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A7_1_Checked"/>
+            <CheckBox x:Name="A8_1" Grid.Column="1" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A8_1_Checked"/>
+            <CheckBox x:Name="A9_1" Grid.Column="1" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A9_1_Checked"/>
+
+            <CheckBox x:Name="B0_1" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B0_1_Checked"/>
+            <CheckBox x:Name="B1_1" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B1_1_Checked"/>
+            <CheckBox x:Name="B2_1" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B2_1_Checked"/>
+            <CheckBox x:Name="B3_1" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B3_1_Checked"/>
+            <CheckBox x:Name="B4_1" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B4_1_Checked"/>
+            <CheckBox x:Name="B5_1" Grid.Column="2" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B5_1_Checked"/>
+            <CheckBox x:Name="B6_1" Grid.Column="2" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B6_1_Checked"/>
+            <CheckBox x:Name="B7_1" Grid.Column="2" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B7_1_Checked"/>
+            <CheckBox x:Name="B8_1" Grid.Column="2" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B8_1_Checked"/>
+            <CheckBox x:Name="B9_1" Grid.Column="2" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B9_1_Checked"/>
+
+            <CheckBox x:Name="C0_1" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C0_1_Checked"/>
+            <CheckBox x:Name="C1_1" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C1_1_Checked"/>
+            <CheckBox x:Name="C2_1" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C2_1_Checked"/>
+            <CheckBox x:Name="C3_1" Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C3_1_Checked"/>
+            <CheckBox x:Name="C4_1" Grid.Column="3" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C4_1_Checked"/>
+            <CheckBox x:Name="C5_1" Grid.Column="3" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C5_1_Checked"/>
+            <CheckBox x:Name="C6_1" Grid.Column="3" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C6_1_Checked"/>
+            <CheckBox x:Name="C7_1" Grid.Column="3" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C7_1_Checked"/>
+            <CheckBox x:Name="C8_1" Grid.Column="3" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C8_1_Checked"/>
+            <CheckBox x:Name="C9_1" Grid.Column="3" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C9_1_Checked"/>
+
+            <CheckBox x:Name="D0_1" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D0_1_Checked"/>
+            <CheckBox x:Name="D1_1" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D1_1_Checked"/>
+            <CheckBox x:Name="D2_1" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D2_1_Checked"/>
+            <CheckBox x:Name="D3_1" Grid.Column="4" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D3_1_Checked"/>
+            <CheckBox x:Name="D4_1" Grid.Column="4" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D4_1_Checked"/>
+            <CheckBox x:Name="D5_1" Grid.Column="4" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked ="D5_1_Checked"/>
+            <CheckBox x:Name="D6_1" Grid.Column="4" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D6_1_Checked"/>
+            <CheckBox x:Name="D7_1" Grid.Column="4" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D7_1_Checked"/>
+            <CheckBox x:Name="D8_1" Grid.Column="4" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D8_1_Checked"/>
+            <CheckBox x:Name="D9_1" Grid.Column="4" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D9_1_Checked"/>
+
+            <CheckBox x:Name="E0_1" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E0_1_Checked"/>
+            <CheckBox x:Name="E1_1" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E1_1_Checked"/>
+            <CheckBox x:Name="E2_1" Grid.Column="5" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E2_1_Checked"/>
+            <CheckBox x:Name="E3_1" Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E3_1_Checked"/>
+            <CheckBox x:Name="E4_1" Grid.Column="5" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E4_1_Checked"/>
+            <CheckBox x:Name="E5_1" Grid.Column="5" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E5_1_Checked"/>
+            <CheckBox x:Name="E6_1" Grid.Column="5" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E6_1_Checked"/>
+            <CheckBox x:Name="E7_1" Grid.Column="5" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E7_1_Checked"/>
+            <CheckBox x:Name="E8_1" Grid.Column="5" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E8_1_Checked"/>
+            <CheckBox x:Name="E9_1" Grid.Column="5" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E9_1_Checked"/>
+
+            <CheckBox x:Name="F0_1" Grid.Column="6" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F0_1_Checked"/>
+            <CheckBox x:Name="F1_1" Grid.Column="6" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F1_1_Checked"/>
+            <CheckBox x:Name="F2_1" Grid.Column="6" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F2_1_Checked"/>
+            <CheckBox x:Name="F3_1" Grid.Column="6" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F3_1_Checked"/>
+            <CheckBox x:Name="F4_1" Grid.Column="6" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F4_1_Checked"/>
+            <CheckBox x:Name="F5_1" Grid.Column="6" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F5_1_Checked"/>
+            <CheckBox x:Name="F6_1" Grid.Column="6" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F6_1_Checked"/>
+            <CheckBox x:Name="F7_1" Grid.Column="6" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F7_1_Checked"/>
+            <CheckBox x:Name="F8_1" Grid.Column="6" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F8_1_Checked"/>
+            <CheckBox x:Name="F9_1" Grid.Column="6" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F9_1_Checked"/>
+
+            <CheckBox x:Name="G0_1" Grid.Column="7" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G0_1_Checked"/>
+            <CheckBox x:Name="G1_1" Grid.Column="7" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G1_1_Checked"/>
+            <CheckBox x:Name="G2_1" Grid.Column="7" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G2_1_Checked"/>
+            <CheckBox x:Name="G3_1" Grid.Column="7" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G3_1_Checked"/>
+            <CheckBox x:Name="G4_1" Grid.Column="7" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G4_1_Checked"/>
+            <CheckBox x:Name="G5_1" Grid.Column="7" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G5_1_Checked"/>
+            <CheckBox x:Name="G6_1" Grid.Column="7" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G6_1_Checked"/>
+            <CheckBox x:Name="G7_1" Grid.Column="7" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G7_1_Checked"/>
+            <CheckBox x:Name="G8_1" Grid.Column="7" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G8_1_Checked"/>
+            <CheckBox x:Name="G9_1" Grid.Column="7" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G9_1_Checked"/>
+
+            <CheckBox x:Name="H0_1" Grid.Column="8" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H0_1_Checked"/>
+            <CheckBox x:Name="H1_1" Grid.Column="8" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H1_1_Checked"/>
+            <CheckBox x:Name="H2_1" Grid.Column="8" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H2_1_Checked"/>
+            <CheckBox x:Name="H3_1" Grid.Column="8" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H3_1_Checked"/>
+            <CheckBox x:Name="H4_1" Grid.Column="8" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H4_1_Checked"/>
+            <CheckBox x:Name="H5_1" Grid.Column="8" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H5_1_Checked"/>
+            <CheckBox x:Name="H6_1" Grid.Column="8" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H6_1_Checked"/>
+            <CheckBox x:Name="H7_1" Grid.Column="8" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H7_1_Checked"/>
+            <CheckBox x:Name="H8_1" Grid.Column="8" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H8_1_Checked"/>
+            <CheckBox x:Name="H9_1" Grid.Column="8" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H9_1_Checked"/>
+
+            <CheckBox x:Name="I0_1" Grid.Column="9" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I0_1_Checked"/>
+            <CheckBox x:Name="I1_1" Grid.Column="9" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I1_1_Checked"/>
+            <CheckBox x:Name="I2_1" Grid.Column="9" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I2_1_Checked"/>
+            <CheckBox x:Name="I3_1" Grid.Column="9" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I3_1_Checked"/>
+            <CheckBox x:Name="I4_1" Grid.Column="9" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I4_1_Checked"/>
+            <CheckBox x:Name="I5_1" Grid.Column="9" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I5_1_Checked"/>
+            <CheckBox x:Name="I6_1" Grid.Column="9" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I6_1_Checked"/>
+            <CheckBox x:Name="I7_1" Grid.Column="9" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I7_1_Checked"/>
+            <CheckBox x:Name="I8_1" Grid.Column="9" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I8_1_Checked"/>
+            <CheckBox x:Name="I9_1" Grid.Column="9" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I9_1_Checked"/>
+
+            <CheckBox x:Name="J0_1" Grid.Column="10" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J0_1_Checked"/>
+            <CheckBox x:Name="J1_1" Grid.Column="10" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J1_1_Checked"/>
+            <CheckBox x:Name="J2_1" Grid.Column="10" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J2_1_Checked"/>
+            <CheckBox x:Name="J3_1" Grid.Column="10" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J3_1_Checked"/>
+            <CheckBox x:Name="J4_1" Grid.Column="10" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J4_1_Checked"/>
+            <CheckBox x:Name="J5_1" Grid.Column="10" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J5_1_Checked"/>
+            <CheckBox x:Name="J6_1" Grid.Column="10" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J6_1_Checked"/>
+            <CheckBox x:Name="J7_1" Grid.Column="10" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J7_1_Checked"/>
+            <CheckBox x:Name="J8_1" Grid.Column="10" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J8_1_Checked"/>
+            <CheckBox x:Name="J9_1" Grid.Column="10" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J9_1_Checked"/>
+
+            <Rectangle x:Name="FirstPlayerFieldCoverRectangle" Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="1" Grid.RowSpan="10" Fill="Blue" Visibility="Hidden"/>
+            <Rectangle x:Name="FirstPlayerDisabler" Grid.ColumnSpan="11" Grid.RowSpan="11" Fill="Transparent" Visibility="Hidden"/>
+        </Grid>
+        <Grid x:Name="SecondPlayerFieldGrid" Grid.Row="0" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Image Source="C:\Users\Chaklun\source\repos\Морской бой\2.png"/>
+            <Border Grid.ColumnSpan="11" Grid.RowSpan="11" BorderBrush="Black" BorderThickness="2"/>
+            <Rectangle Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="1" Grid.RowSpan="10" Fill="DodgerBlue"/>
+
+            <Border Grid.Column="1" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="2" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="3" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="4" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="5" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="6" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="7" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="8" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="9" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="10" Grid.Row="1" Grid.RowSpan="10" BorderBrush="Blue" BorderThickness="1"/>
+
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="1" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="2" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="3" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="4" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="5" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="6" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="7" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="8" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="9" BorderBrush="Blue" BorderThickness="1"/>
+            <Border Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="10" BorderBrush="Blue" BorderThickness="1"/>
+            
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="1" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="2" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="3" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="5" Grid.Column="0" Text="4" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="6" Grid.Column="0" Text="5" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="7" Grid.Column="0" Text="6" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="8" Grid.Column="0" Text="7" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="9" Grid.Column="0" Text="8" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="10" Grid.Column="0" Text="9" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="A" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="B" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="3" Text="C" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="4" Text="D" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="5" Text="E" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="6" Text="F" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="7" Text="G" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="8" Text="H" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="9" Text="I" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+            <TextBlock Grid.Row="0" Grid.Column="10" Text="J" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="20"/>
+
+            <CheckBox x:Name="A0_2" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A0_2_Checked"/>
+            <CheckBox x:Name="A1_2" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A1_2_Checked"/>
+            <CheckBox x:Name="A2_2" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A2_2_Checked"/>
+            <CheckBox x:Name="A3_2" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A3_2_Checked"/>
+            <CheckBox x:Name="A4_2" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A4_2_Checked"/>
+            <CheckBox x:Name="A5_2" Grid.Column="1" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A5_2_Checked"/>
+            <CheckBox x:Name="A6_2" Grid.Column="1" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A6_2_Checked"/>
+            <CheckBox x:Name="A7_2" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A7_2_Checked"/>
+            <CheckBox x:Name="A8_2" Grid.Column="1" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A8_2_Checked"/>
+            <CheckBox x:Name="A9_2" Grid.Column="1" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="A9_2_Checked"/>
+
+            <CheckBox x:Name="B0_2" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B0_2_Checked"/>
+            <CheckBox x:Name="B1_2" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B1_2_Checked"/>
+            <CheckBox x:Name="B2_2" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B2_2_Checked"/>
+            <CheckBox x:Name="B3_2" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B3_2_Checked"/>
+            <CheckBox x:Name="B4_2" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B4_2_Checked"/>
+            <CheckBox x:Name="B5_2" Grid.Column="2" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B5_2_Checked"/>
+            <CheckBox x:Name="B6_2" Grid.Column="2" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B6_2_Checked"/>
+            <CheckBox x:Name="B7_2" Grid.Column="2" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B7_2_Checked"/>
+            <CheckBox x:Name="B8_2" Grid.Column="2" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B8_2_Checked"/>
+            <CheckBox x:Name="B9_2" Grid.Column="2" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="B9_2_Checked"/>
+
+            <CheckBox x:Name="C0_2" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C0_2_Checked"/>
+            <CheckBox x:Name="C1_2" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C1_2_Checked"/>
+            <CheckBox x:Name="C2_2" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C2_2_Checked"/>
+            <CheckBox x:Name="C3_2" Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C3_2_Checked"/>
+            <CheckBox x:Name="C4_2" Grid.Column="3" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C4_2_Checked"/>
+            <CheckBox x:Name="C5_2" Grid.Column="3" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C5_2_Checked"/>
+            <CheckBox x:Name="C6_2" Grid.Column="3" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C6_2_Checked"/>
+            <CheckBox x:Name="C7_2" Grid.Column="3" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C7_2_Checked"/>
+            <CheckBox x:Name="C8_2" Grid.Column="3" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C8_2_Checked"/>
+            <CheckBox x:Name="C9_2" Grid.Column="3" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="C9_2_Checked"/>
+
+            <CheckBox x:Name="D0_2" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D0_2_Checked"/>
+            <CheckBox x:Name="D1_2" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D1_2_Checked"/>
+            <CheckBox x:Name="D2_2" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D2_2_Checked"/>
+            <CheckBox x:Name="D3_2" Grid.Column="4" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D3_2_Checked"/>
+            <CheckBox x:Name="D4_2" Grid.Column="4" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D4_2_Checked"/>
+            <CheckBox x:Name="D5_2" Grid.Column="4" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D5_2_Checked"/>
+            <CheckBox x:Name="D6_2" Grid.Column="4" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D6_2_Checked"/>
+            <CheckBox x:Name="D7_2" Grid.Column="4" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D7_2_Checked"/>
+            <CheckBox x:Name="D8_2" Grid.Column="4" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D8_2_Checked"/>
+            <CheckBox x:Name="D9_2" Grid.Column="4" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="D9_2_Checked"/>
+
+            <CheckBox x:Name="E0_2" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E0_2_Checked"/>
+            <CheckBox x:Name="E1_2" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E1_2_Checked"/>
+            <CheckBox x:Name="E2_2" Grid.Column="5" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E2_2_Checked"/>
+            <CheckBox x:Name="E3_2" Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E3_2_Checked"/>
+            <CheckBox x:Name="E4_2" Grid.Column="5" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E4_2_Checked"/>
+            <CheckBox x:Name="E5_2" Grid.Column="5" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E5_2_Checked"/>
+            <CheckBox x:Name="E6_2" Grid.Column="5" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E6_2_Checked"/>
+            <CheckBox x:Name="E7_2" Grid.Column="5" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E7_2_Checked"/>
+            <CheckBox x:Name="E8_2" Grid.Column="5" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E8_2_Checked"/>
+            <CheckBox x:Name="E9_2" Grid.Column="5" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="E9_2_Checked"/>
+
+            <CheckBox x:Name="F0_2" Grid.Column="6" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F0_2_Checked"/>
+            <CheckBox x:Name="F1_2" Grid.Column="6" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F1_2_Checked"/>
+            <CheckBox x:Name="F2_2" Grid.Column="6" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F2_2_Checked"/>
+            <CheckBox x:Name="F3_2" Grid.Column="6" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F3_2_Checked"/>
+            <CheckBox x:Name="F4_2" Grid.Column="6" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F4_2_Checked"/>
+            <CheckBox x:Name="F5_2" Grid.Column="6" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F5_2_Checked"/>
+            <CheckBox x:Name="F6_2" Grid.Column="6" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F6_2_Checked"/>
+            <CheckBox x:Name="F7_2" Grid.Column="6" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F7_2_Checked"/>
+            <CheckBox x:Name="F8_2" Grid.Column="6" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F8_2_Checked"/>
+            <CheckBox x:Name="F9_2" Grid.Column="6" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="F9_2_Checked"/>
+
+            <CheckBox x:Name="G0_2" Grid.Column="7" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G0_2_Checked"/>
+            <CheckBox x:Name="G1_2" Grid.Column="7" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G1_2_Checked"/>
+            <CheckBox x:Name="G2_2" Grid.Column="7" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G2_2_Checked"/>
+            <CheckBox x:Name="G3_2" Grid.Column="7" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G3_2_Checked"/>
+            <CheckBox x:Name="G4_2" Grid.Column="7" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G4_2_Checked"/>
+            <CheckBox x:Name="G5_2" Grid.Column="7" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G5_2_Checked"/>
+            <CheckBox x:Name="G6_2" Grid.Column="7" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G6_2_Checked"/>
+            <CheckBox x:Name="G7_2" Grid.Column="7" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G7_2_Checked"/>
+            <CheckBox x:Name="G8_2" Grid.Column="7" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G8_2_Checked"/>
+            <CheckBox x:Name="G9_2" Grid.Column="7" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="G9_2_Checked"/>
+
+            <CheckBox x:Name="H0_2" Grid.Column="8" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H0_2_Checked"/>
+            <CheckBox x:Name="H1_2" Grid.Column="8" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H1_2_Checked"/>
+            <CheckBox x:Name="H2_2" Grid.Column="8" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H2_2_Checked"/>
+            <CheckBox x:Name="H3_2" Grid.Column="8" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H3_2_Checked"/>
+            <CheckBox x:Name="H4_2" Grid.Column="8" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H4_2_Checked"/>
+            <CheckBox x:Name="H5_2" Grid.Column="8" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H5_2_Checked"/>
+            <CheckBox x:Name="H6_2" Grid.Column="8" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H6_2_Checked"/>
+            <CheckBox x:Name="H7_2" Grid.Column="8" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H7_2_Checked"/>
+            <CheckBox x:Name="H8_2" Grid.Column="8" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H8_2_Checked"/>
+            <CheckBox x:Name="H9_2" Grid.Column="8" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="H9_2_Checked"/>
+
+            <CheckBox x:Name="I0_2" Grid.Column="9" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I0_2_Checked"/>
+            <CheckBox x:Name="I1_2" Grid.Column="9" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I1_2_Checked"/>
+            <CheckBox x:Name="I2_2" Grid.Column="9" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I2_2_Checked"/>
+            <CheckBox x:Name="I3_2" Grid.Column="9" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I3_2_Checked"/>
+            <CheckBox x:Name="I4_2" Grid.Column="9" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I4_2_Checked"/>
+            <CheckBox x:Name="I5_2" Grid.Column="9" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I5_2_Checked"/>
+            <CheckBox x:Name="I6_2" Grid.Column="9" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I6_2_Checked"/>
+            <CheckBox x:Name="I7_2" Grid.Column="9" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I7_2_Checked"/>
+            <CheckBox x:Name="I8_2" Grid.Column="9" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I8_2_Checked"/>
+            <CheckBox x:Name="I9_2" Grid.Column="9" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="I9_2_Checked"/>
+
+            <CheckBox x:Name="J0_2" Grid.Column="10" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J0_2_Checked"/>
+            <CheckBox x:Name="J1_2" Grid.Column="10" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J1_2_Checked"/>
+            <CheckBox x:Name="J2_2" Grid.Column="10" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J2_2_Checked"/>
+            <CheckBox x:Name="J3_2" Grid.Column="10" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J3_2_Checked"/>
+            <CheckBox x:Name="J4_2" Grid.Column="10" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J4_2_Checked"/>
+            <CheckBox x:Name="J5_2" Grid.Column="10" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J5_2_Checked"/>
+            <CheckBox x:Name="J6_2" Grid.Column="10" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J6_2_Checked"/>
+            <CheckBox x:Name="J7_2" Grid.Column="10" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J7_2_Checked"/>
+            <CheckBox x:Name="J8_2" Grid.Column="10" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J8_2_Checked"/>
+            <CheckBox x:Name="J9_2" Grid.Column="10" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="J9_2_Checked"/>
+
+            <Rectangle x:Name="SecondPlayerFieldCoverRectangle" Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="1" Grid.RowSpan="10" Fill="Blue"/>
+            <Rectangle x:Name="SecondPlayerDisabler" Grid.ColumnSpan="11" Grid.RowSpan="11" Fill="Transparent" Visibility="Hidden"/>
+        </Grid>
+
+        <Rectangle Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Fill="Orange"/>
+
+        <Button Grid.Column="0" Grid.Row="1" x:Name="Player1ReadyButton" Margin="5" IsEnabled="False" Click="Player1ReadyButton_Click" HorizontalAlignment="Center"/>
+        <Button Grid.Column="1" Grid.Row="1" x:Name="Player2ReadyButton" Margin="5" IsEnabled="False" Click="Player2ReadyButton_Click" HorizontalAlignment="Center"/>
+
+        <Image Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" Source="C:\Users\Chaklun\source\repos\Морской бой\Ship.jpg"/>
+        <StackPanel Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="300">
+            <ComboBox x:Name="ChooseShipTypeComboBox" SelectionChanged="ChooseShipTypeComboBox_SelectionChanged" Margin="5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" SelectedIndex="0"/>
+            <TextBox x:Name="CoordinatesTextBox" IsEnabled="False" GotFocus="CoordinatesTextBox_GotFocus" Margin="5" MaxWidth="300"/>
+            
+            <WrapPanel HorizontalAlignment="Center" Margin="0,20,0,0">
+                <Button x:Name="ConfirmCoordinatesButton" Click="ConfirmCoordinatesButton_Click" IsEnabled="False" BorderThickness="5"/>
+            </WrapPanel>
+        </StackPanel>
+
+        <ComboBox x:Name="SelectLanguageComboBox" Grid.Column="2" Grid.Row="0" SelectionChanged="SelectLanguageComboBox_SelectionChanged" HorizontalAlignment="Right" VerticalAlignment="Top" 
+                  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderThickness="5">
+            <ComboBoxItem Content="Select Language" IsSelected="True" Visibility="Collapsed"/>
+            <ComboBoxItem Content="Українська"/>
+            <ComboBoxItem Content="English"/>
+            <ComboBoxItem Content="Deutsch"/>
+            <ComboBoxItem Content="Русский"/>
+        </ComboBox>
+    </Grid>
+</Window>
